@@ -22,7 +22,6 @@ async function getData(location) {
    try{
     let response = await fetch(`https://api.weatherapi.com/v1/forecast.json?key=1600cec7293a4451b08184142241006&days=3&q=${location}`)
     let data = await response.json()
-    console.log(data);
     display(data)
     document.getElementById('alert').classList.add('d-none')
    }
@@ -63,7 +62,6 @@ function display(response) {
     let cartona = ``;
     for (let i = 0; i < response.forecast.forecastday.length; i++) {
         let date = new Date(response.forecast.forecastday[i].date)
-    //  console.log( response.forecast.forecastday);
         if (i == 0) {
             cartona += `        
         <div class="col-lg-4 ">
