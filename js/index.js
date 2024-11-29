@@ -81,13 +81,13 @@ function display(response) {
           <p class="custom">${response.current.condition.text}</p>
           <ul class="d-flex justify-content-start list-unstyled">
             <li class="me-4">
-              <img src="../images/icon-umberella.png" alt="umbrella" class="me-1"/><span>20%</span>
+              <img src="assests/images/icon-umberella.png" alt="umbrella" class="me-1"/><span>20%</span>
             </li>
             <li class="me-4">
-              <img src="../images/icon-wind.png" alt="wind" class="me-1"/><span>18km/h</span>
+              <img src="assests/images/icon-wind.png" alt="wind" class="me-1"/><span>18km/h</span>
             </li>
             <li class="me-4">
-              <img src="../images/icon-compass.png" alt="compass" class="me-1"/><span>East</span>
+              <img src="assests/images/icon-compass.png" alt="compass" class="me-1"/><span>East</span>
             </li>
             
             

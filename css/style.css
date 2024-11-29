@@ -53,7 +53,7 @@ nav p{
     margin: 20px 0;
     padding: 70px 0;
     height: 350px;
-    background-image: url(../images/banner.png);
+    background-image: url(../assests/images/banner.png);
     background-size: cover;
 }
  input[id='search']{
